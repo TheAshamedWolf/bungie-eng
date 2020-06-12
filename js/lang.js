@@ -24,6 +24,7 @@ if (lang == "nl") {
 // $.each(IDs, function(index, str) {
 //     jsonObj[str] = document.getElementById(str).innerHTML;
 // });
+
 // console.log(jsonObj);
 
 
