@@ -18,7 +18,10 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+                <a id="langA" class="navbar-brand" href="?lang=en">
+                    <img class="navbar-brand js-scroll-trigger" id="langImg" style="max-height: 80px !important; max-width: 90px !important; opacity: 0.4;" src="assets/img/netherlandsFlag.png">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#intro">Intro</a></li>
@@ -779,10 +782,10 @@
                 <div class="col-lg-8 mx-auto">
                 <h1 class="text-white mb-4"> Countdown to launch:</h1>
                 <ul>
-                  <li class="countdown text-white mb-4"><span id="days"></span>days</li>
-                  <li class="countdown text-white mb-4"><span id="hours"></span>Hours</li>
-                  <li class="countdown text-white mb-4"><span id="minutes"></span>Minutes</li>
-                  <li class="countdown text-white mb-4"><span id="seconds"></span>Seconds</li>
+                  <li class="countdown text-white mb-4"><span class="unit" id="days"></span><span id="dag">days</span></li>
+                  <li class="countdown text-white mb-4"><span class="unit" id="hours"></span><span id="uur">Hours</span></li>
+                  <li class="countdown text-white mb-4"><span class="unit" id="minutes"></span><span id="min">Minutes</span></li>
+                  <li class="countdown text-white mb-4"><span class="unit" id="seconds"></span><span id="sec">Seconds</span></li>
                 </ul>
             </div>
               </div>

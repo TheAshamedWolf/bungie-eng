@@ -10328,7 +10328,7 @@ body {
   text-transform: uppercase;
 }
 
-.countdown span {
+.countdown .unit {
   display: block;
   font-size: 4.5rem;
 }
