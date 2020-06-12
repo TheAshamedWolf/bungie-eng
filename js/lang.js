@@ -5,7 +5,7 @@ if (lang == "nl") {
     lang = "en";
 }
 //document.getElementsByTagName("html").attr("lang") = lang;
-$.getJSON("../json/" + lang + ".json", function(data)  {
+$.getJSON(lang + ".json", function(data)  {
     $.each(data, function(index, str) {
         document.getElementById(index).innerHTML = str;
     });
