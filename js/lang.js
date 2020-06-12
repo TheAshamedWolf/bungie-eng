@@ -7,10 +7,9 @@ if (lang == "nl") {
 //document.getElementsByTagName("html").attr("lang") = lang;
 $.getJSON("json/" + lang + ".json", function (data) {
     $.each(data, function (index, str) {
-        var element = document.getElementById(index);
-        if (element != null) {
+        $('[data-lang="' + index + '"]').each(function (j, element) {
             element.innerHTML = str;
-        }
+        });
     });
 });
 

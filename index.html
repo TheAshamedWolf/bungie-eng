@@ -1,540 +1,716 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Bungie Rover</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <a id="langA" class="navbar-brand" href="?lang=en">
-                    <img class="navbar-brand js-scroll-trigger" id="langImg" style="max-height: 80px !important; max-width: 90px !important; opacity: 0.4;" src="assets/img/netherlandsFlag.png">
-                </a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#intro">Intro</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#timeline">Timeline</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#countdown">Countdown</a></li>
-                    </ul>
-                </div>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bungie Rover</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#intro">Intro</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#timeline">Timeline</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#countdown">Countdown</a></li>
+                    <li class="nav-item"><a id="langA" class="navbar-link js-scroll-trigger" href="?lang=en">
+                            <img class="navbar-brand js-scroll-trigger" id="langImg"
+                                src="assets/img/netherlandsFlag.png">
+                        </a></li>
+                </ul>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Bungie Rover</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">"Let's explore the hidden wonders of the Moon"</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#intro">No time to lose Guardian</a>
-                </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Bungie Rover</h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">"Let's explore the hidden wonders of the Moon"</h2>
+                <a class="btn btn-primary js-scroll-trigger" href="#intro">No time to lose Guardian</a>
             </div>
-        </header>
-        <!-- Intro-->
-        <section class="about-section text-center" id="intro">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Above and Beyond</h2>
-                        <p class="text-white-50">
-                            August 2, 1955 served as the starting signal for the greatest scientific competition in the history of humanity. </br> 
-                             The Space Race.</br> 
+        </div>
+    </header>
+    <!-- Intro-->
+    <section class="about-section text-center" id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4">Above and Beyond</h2>
+                    <p class="text-white-50">
+                        <a data-lang="frontText">
+                            August 2, 1955 served as the starting signal for the greatest scientific competition in the
+                            history of humanity. </br>
+                            The Space Race.</br>
                             </br>
-                            In the 14 years that followed, hundreds of thousands of people came togehter, 
-                            they spent a huge amount of money, made use of a colossal amount of brain power. 
-                            And they achieved something that was considered impossible in any expectation or prediction.</br>
+                            In the 14 years that followed, hundreds of thousands of people came togehter,
+                            they spent a huge amount of money, made use of a colossal amount of brain power.
+                            And they achieved something that was considered impossible in any expectation or
+                            prediction.</br>
                             </br>
-                            On July 20, 1969, the first people landed on the moon, marking the end of the race. 
-                            And although there have been a number of people on the moon until 1972. For the nearly 50 years that followed, nothing or anyone has ever been on the moon again 
-                            </br><a class="js-scroll-trigger" href="#timeline" >Until now...</a>  </p>
-                            
-                    </div>
+                            On July 20, 1969, the first people landed on the moon, marking the end of the race.
+                            And although there have been a number of people on the moon until 1972. For the nearly 50
+                            years that followed, nothing or anyone has ever been on the moon again
+                            </br>
+                        </a>
+                        </br>
+                        <a class="js-scroll-trigger" href="#timeline" data-lang="link">Until now...</a> </p>
+
                 </div>
-                
             </div>
-            <img class="img-fluid" src="assets/img/rocket.png" alt="" />
-        </section>
-        <!-- Timeline-->
-        <section class="projects-section bg-light" id="timeline">
-            <div class="container">
-                <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/design.jpg" alt="" /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>The Design</h4>
-                            <p class="text-black-50 mb-0">This is the design of our robot, &nbsp; We used different perspectives from the different diciplines and client requests to make the design decisions that have led us to this prototype</p>
-                        </div>
+
+        </div>
+        <img class="img-fluid" src="assets/img/rocket.png" alt="" />
+    </section>
+    <!-- Timeline-->
+    <section class="projects-section bg-light" id="timeline">
+        <div class="container">
+            <!-- Featured Project Row-->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/design.jpg" alt="" />
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>The Design</h4>
+                        <p class="text-black-50 mb-0">This is the design of our robot, &nbsp; We used different
+                            perspectives from the different diciplines and client requests to make the design decisions
+                            that have led us to this prototype</p>
                     </div>
                 </div>
-                <!--Week 1-->
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12 mt-4"><h2 class="text-dark text-center">Week 1</h2></div>
+            </div>
+            <!--Week 1-->
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12 mt-4">
+                    <h2 class="text-dark text-center">Week 1</h2>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Research Phase</h4></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="ResearchPhase">Research Phase</h4>
                 </div>
-                <!-- Week 1 Software Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Software Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!-- Week 1 Software Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="SE">Software Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="SE">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 1 Mechanical Engineering-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mechanical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <!-- Week 1 Mechanical Engineering-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="ME">Mechanical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="MEwk1">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 1 Electrical Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Electrical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>    
-                <br>            
-                <!--Week 2-->                
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12 mt-4"><h2 class="text-dark text-center">Week 2</h2></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Research and Design Phase</h4></div>
-                </div>
-                <!-- Week 2 Software Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Software Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!-- Week 1 Electrical Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG"
+                        alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="EE">Electrical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="EEwk1">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 2 Mechanical Engineering-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mechanical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <br>
+            <!--Week 2-->
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12 mt-4">
+                    <h2 class="text-dark text-center">Week 2</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="ResearchDesignPhase">Research and Design Phase
+                    </h4>
+                </div>
+            </div>
+            <!-- Week 2 Software Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="SE">Software Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="SEwk2">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 2 Electrical Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Electrical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!-- Week 2 Mechanical Engineering-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="ME">Mechanical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="MEwk2">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--Week 2 Progress File-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Progress File</h4>
-                                    <p class="mb-0 text-white-50"><a href="#" target="_blank">Progress File 1</a></p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <!-- Week 2 Electrical Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG"
+                        alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="EE">Electrical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="EEwk2">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <br>
-                <!--Week 3-->
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12 mt-4"><h2 class="text-dark text-center">Week 3</h2></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Design Phase</h4></div>
-                </div>
-                <!-- Week 3 Software Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Software Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!--Week 2 Progress File-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="PF">Progress File</h4>
+                                <p class="mb-0 text-white-50"><a href="#" target="_blank" data-lang="PFwk2">Progress
+                                        File 1</a></p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 3 Mechanical Engineering-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mechanical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <br>
+            <!--Week 3-->
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12 mt-4">
+                    <h2 class="text-dark text-center">Week 3</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="DesignPhase">Design Phase</h4>
+                </div>
+            </div>
+            <!-- Week 3 Software Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="SE">Software Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="SEwk3">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 3 Electrical Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Electrical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!-- Week 3 Mechanical Engineering-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="ME">Mechanical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="MEwk3">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--Week 3 Progress File-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Progress File</h4>
-                                    <p class="mb-0 text-white-50"><a href="pdf/GroeidocumentWeek3.pdf" target="_blank">Progress File 2</a></p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <!-- Week 3 Electrical Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG"
+                        alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="EE">Electrical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="EEwk3">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <br>
-                <!--Week 4-->
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12 mt-4"><h2 class="text-dark text-center">Week 4</h2></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Prototype Phase</h4></div>
-                </div>
-                <!-- Week 4 Software Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Software Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!--Week 3 Progress File-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="PF">Progress File</h4>
+                                <p class="mb-0 text-white-50"><a href="pdf/GroeidocumentWeek3.pdf" target="_blank"
+                                        data-lang="PFwk3">Progress File 2</a></p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 4 Mechanical Engineering-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mechanical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <br>
+            <!--Week 4-->
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12 mt-4">
+                    <h2 class="text-dark text-center">Week 4</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="PrototypePhase">Prototype Phase</h4>
+                </div>
+            </div>
+            <!-- Week 4 Software Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="SE">Software Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="SEwk4">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 4 Electrical Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Electrical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!-- Week 4 Mechanical Engineering-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="ME">Mechanical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="MEwk4">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--Week 4 Progress File-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Progress File</h4>
-                                    <p class="mb-0 text-white-50"><a href="pdf/GroeidocumentWeek4.pdf" target="_blank">Progress File 3</a></p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <!-- Week 4 Electrical Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG"
+                        alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="EE">Electrical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="EEwk4">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <br>
-                <!--Week 5-->
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12 mt-4"><h2 class="text-dark text-center">Week 5</h2></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Prototype Phase</h4></div>
-                </div>
-                <!-- Week 5 Software Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Software Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!--Week 4 Progress File-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="PF">Progress File</h4>
+                                <p class="mb-0 text-white-50"><a href="pdf/GroeidocumentWeek4.pdf" target="_blank"
+                                        data-lang="PFwk4">Progress File 3</a></p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 5 Mechanical Engineering-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mechanical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <br>
+            <!--Week 5-->
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12 mt-4">
+                    <h2 class="text-dark text-center">Week 5</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="PrototypePhase">Prototype Phase</h4>
+                </div>
+            </div>
+            <!-- Week 5 Software Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="SE">Software Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="SEwk5">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 5 Electrical Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Electrical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!-- Week 5 Mechanical Engineering-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="ME">Mechanical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="MEwk5">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--Week 5 Progress File-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Progress File</h4>
-                                    <p class="mb-0 text-white-50"><a href="pdf/GroeidocumentWeek5.pdf" target="_blank">Progress File 4</a></p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <!-- Week 5 Electrical Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG"
+                        alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="EE">Electrical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="EEwk5">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <br>
-                <!--Week 6-->
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12 mt-4"><h2 class="text-dark text-center">Week 6</h2></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Prototype Phase</h4></div>
-                </div>
-                <!-- Week 6 Software Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Software Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!--Week 5 Progress File-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="PF">Progress File</h4>
+                                <p class="mb-0 text-white-50"><a href="pdf/GroeidocumentWeek5.pdf" target="_blank"
+                                        data-lang="PFwk5">Progress File 4</a></p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 6 Mechanical Engineering-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mechanical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <br>
+            <!--Week 6-->
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12 mt-4">
+                    <h2 class="text-dark text-center">Week 6</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="PrototypePhase">Prototype Phase</h4>
+                </div>
+            </div>
+            <!-- Week 6 Software Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="SE">Software Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="SEwk6">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 6 Electrical Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Electrical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!-- Week 6 Mechanical Engineering-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="ME">Mechanical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="MEwk6">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <br>
-                <!--Week 7-->
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12 mt-4"><h2 class="text-dark text-center">Week 7</h2></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Prototype Phase</h4></div>
-                </div>
-                <!-- Week 7 Software Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Software Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!-- Week 6 Electrical Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG"
+                        alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="EE">Electrical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="PFwk6">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 7 Mechanical Engineering-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mechanical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <br>
+            <!--Week 7-->
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12 mt-4">
+                    <h2 class="text-dark text-center">Week 7</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="PrototypePhase">Prototype Phase</h4>
+                </div>
+            </div>
+            <!-- Week 7 Software Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #add8e6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="SE">Software Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="SEwk7">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Week 7 Electrical Engineering-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG" alt="" /></div>
-                    <div class="col-lg-9">
-                        <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Electrical Engineering</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
+            </div>
+            <!-- Week 7 Mechanical Engineering-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #ade6d8 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="ME">Mechanical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="MEwk7">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--Week 7 Progress File-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
-                    <div class="col-lg-9 order-lg-first">
-                        <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Progress File</h4>
-                                    <p class="mb-0 text-white-50"><a href="pdf/GroeidocumentWeek3.pdf" target="_blank">Progress File 5</a></p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+            <!-- Week 7 Electrical Engineering-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG"
+                        alt="" /></div>
+                <div class="col-lg-9">
+                    <div class="bg-black text-center h-100 project" style="background-color: #adbce6 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white" data-lang="EE">Electrical Engineering</h4>
+                                <p class="mb-0 text-white-50" data-lang="EEwk7">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores
+                                    quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed
+                                    delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae
+                                    cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem
+                                    sunt neque, optio, impedit fuga dicta ullam?</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <br>
-                <!--Week 8-->
-                <!--
+            </div>
+            <!--Week 7 Progress File-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png"
+                        alt="" /></div>
+                <div class="col-lg-9 order-lg-first">
+                    <div class="bg-black text-center h-100 project" style="background-color: #99cfe0 !important;">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white" data-lang="PF">Progress File</h4>
+                                <p class="mb-0 text-white-50"><a href="pdf/GroeidocumentWeek3.pdf" target="_blank"
+                                        data-lang="PFwk7">Progress File 5</a></p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--Week 8-->
+            <!--
                 <div class="row">
                     <div class="col-md-12 mb-12 mb-md-12 mt-4"><h2 class="text-dark text-center">Week 8</h2></div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Realization Phase</h4></div>
                 </div> -->
-                <!-- Week 8 Software Engineering-->
-                <!--
+            <!-- Week 8 Software Engineering-->
+            <!--
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                     <div class="col-lg-3"><img class="team-image" src="assets/img/design-top.png" alt="" /></div>
                     <div class="col-lg-9">
@@ -549,8 +725,8 @@
                         </div>
                     </div>
                 </div> -->
-                <!-- Week 8 Mechanical Engineering-->
-                <!--
+            <!-- Week 8 Mechanical Engineering-->
+            <!--
                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
                     <div class="col-lg-9 order-lg-first">
@@ -565,8 +741,8 @@
                         </div>
                     </div>
                 </div> -->
-                <!-- Week 8 Electrical Engineering-->
-                <!--
+            <!-- Week 8 Electrical Engineering-->
+            <!--
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                     <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/Roboto.JPG" alt="" /></div>
                     <div class="col-lg-9">
@@ -581,8 +757,8 @@
                         </div>
                     </div>
                 </div> -->
-                <!--Week 8 Progress File-->
-                <!--
+            <!--Week 8 Progress File-->
+            <!--
                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-3" style="overflow: hidden;"><img class="team-image" src="assets/img/desgin-side.png" alt="" /></div>
                     <div class="col-lg-9 order-lg-first">
@@ -597,204 +773,216 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
-        </section>
-        <!-- Team-->
+        </div>
+    </section>
+    <!-- Team-->
 
-        <section class="contact-section bg-light" id="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 mb-12 mb-md-12"><h2 class="text-dark mb-4 text-center">Meet our Team</h2></div>
-                </div>
-                <div class="row">    
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Software Engineering</h4></div>
-                </div>
-                <div class="row mb-4">
-                    
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center ">
-                                <img class="img-thumbnail border-0" src="assets/img/ufo.png">
-                                <h4 class="text-uppercase m-0">Sander Albers</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">SE2 <br>Git Master SE2 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/alien.png">
-                                <h4 class="text-uppercase m-0">Sidney Dijkstra</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">SE2 <br>Public Relations </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/mission-accomplished.png">
-                                <h4 class="text-uppercase m-0">Sytze Frietema</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">SE2</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-4">
-                    
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/alienWoobWoob.png">
-                                <h4 class="text-uppercase m-0">Mathijs Grafhorst</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">SE1</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/cosmonaut.png">
-                                <h4 class="text-uppercase m-0">Maxime Hendriks</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">SE1 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/astronautMonkey.png">
-                                <h4 class="text-uppercase m-0">Danny Pas</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">SE1 </br>Git Master SE1</br>Scrum Master SE1</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-4">
-                    
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/astronautFemale.png">
-                                <h4 class="text-uppercase m-0">Naomi Poort</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">SE2 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/astronaut.png">
-                                <h4 class="text-uppercase m-0">Damiaen Toussaint</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">SE1 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/launch.png">
-                                <h4 class="text-uppercase m-0">Wybren bij de Weg</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">SE2 <br>Scrum Master SE2 <br>Public Relations </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Mechanical Engineering</h4></div>
-                </div>
-                <div class="row mb-4">
-                    
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/universe.png">
-                                <h4 class="text-uppercase m-0">Jimmy Schuring</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">Scrum Master</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/astronautNumber2.png">
-                                <h4 class="text-uppercase m-0">Ype-Eelco Visser</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/ufoWoobWoob.png">
-                                <h4 class="text-uppercase m-0">Erwan Woudstra</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    
-                    <div class="col-md-12 mb-12 mb-md-12"><h4 class="text-primary mb-4 text-center">Electrical Engineering</h4></div>
-                </div>
-                <div class="row justify-content-center">
-                    
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/astronautAgain.png">
-                                <h4 class="text-uppercase m-0">Jarich de Goede</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">Scrum Master</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="assets/img/astronautMan.png">
-                                <h4 class="text-uppercase m-0">Wouter Welling</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"> </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+    <section class="contact-section bg-light" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h2 class="text-dark mb-4 text-center" data-lang="MeetTeam">Meet our Team</h2>
                 </div>
             </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section text-center" id="countdown">
-            <div class="blur"></div>
-            <div class="container d-flex h-100 align-items-center">
-                <div class="col-lg-8 mx-auto">
-                <h1 class="text-white mb-4"> Countdown to launch:</h1>
+            <div class="row">
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="SE">Software Engineering</h4>
+                </div>
+            </div>
+            <div class="row mb-4">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center ">
+                            <img class="img-thumbnail border-0" src="assets/img/ufo.png">
+                            <h4 class="text-uppercase m-0">Sander Albers</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">SE2 <br>Git Master SE2 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/alien.png">
+                            <h4 class="text-uppercase m-0">Sidney Dijkstra</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">SE2 <br>Public Relations </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/mission-accomplished.png">
+                            <h4 class="text-uppercase m-0">Sytze Frietema</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">SE2</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/alienWoobWoob.png">
+                            <h4 class="text-uppercase m-0">Mathijs Grafhorst</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">SE1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/cosmonaut.png">
+                            <h4 class="text-uppercase m-0">Maxime Hendriks</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">SE1 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/astronautMonkey.png">
+                            <h4 class="text-uppercase m-0">Danny Pas</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">SE1 </br>Git Master SE1</br>Scrum Master SE1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/astronautCat.png">
+                            <h4 class="text-uppercase m-0">Naomi Poort</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">SE2 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/astronaut.png">
+                            <h4 class="text-uppercase m-0">Damiaen Toussaint</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">SE1 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/launch.png">
+                            <h4 class="text-uppercase m-0">Wybren bij de Weg</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">SE2 <br>Scrum Master SE2 <br>Public Relations </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="ME">Mechanical Engineering</h4>
+                </div>
+            </div>
+            <div class="row mb-4">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/universe.png">
+                            <h4 class="text-uppercase m-0">Jimmy Schuring</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">Scrum Master</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/astronautNumber2.png">
+                            <h4 class="text-uppercase m-0">Ype-Eelco Visser</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/ufoWoobWoob.png">
+                            <h4 class="text-uppercase m-0">Erwan Woudstra</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12 mb-12 mb-md-12">
+                    <h4 class="text-primary mb-4 text-center" data-lang="EE">Electrical Engineering</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/astronautAgain.png">
+                            <h4 class="text-uppercase m-0">Jarich de Goede</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">Scrum Master</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <img class="img-thumbnail border-0" src="assets/img/astronautMan.png">
+                            <h4 class="text-uppercase m-0">Wouter Welling</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50"> </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Signup-->
+    <section class="signup-section text-center" id="countdown">
+        <div class="blur"></div>
+        <div class="container d-flex h-100 align-items-center">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="text-white mb-4">Countdown to launch:</h1>
                 <ul>
-                  <li class="countdown text-white mb-4"><span class="unit" id="days"></span><span id="dag">days</span></li>
-                  <li class="countdown text-white mb-4"><span class="unit" id="hours"></span><span id="uur">Hours</span></li>
-                  <li class="countdown text-white mb-4"><span class="unit" id="minutes"></span><span id="min">Minutes</span></li>
-                  <li class="countdown text-white mb-4"><span class="unit" id="seconds"></span><span id="sec">Seconds</span></li>
+                    <li class="countdown text-white mb-4"><span class="unit" id="days"></span><span
+                            data-lang="days">days</span></li>
+                    <li class="countdown text-white mb-4"><span class="unit" id="hours"></span><span
+                            data-lang="hours">Hours</span></li>
+                    <li class="countdown text-white mb-4"><span class="unit" id="minutes"></span><span
+                            data-lang="minutes">Minutes</span></li>
+                    <li class="countdown text-white mb-4"><span class="unit" id="seconds"></span><span
+                            data-lang="seconds">Seconds</span></li>
                 </ul>
             </div>
-              </div>
-        </section>
-        <!-- Contact-->
+        </div>
+    </section>
+    <!-- Contact-->
 
-        <section class="contact-section bg-black">
-            <div class="container">
-                <!--
+    <section class="contact-section bg-black">
+        <div class="container">
+            <!--
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
@@ -827,22 +1015,25 @@
                         </div>
                     </div>
                 </div>-->
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="https://www.youtube.com/watch?v=_8sx8OJGDoQ"><i class="fab fa-reddit"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
+            <div class="social d-flex justify-content-center">
+                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href="https://www.youtube.com/watch?v=_8sx8OJGDoQ"><i class="fab fa-reddit"></i></a>
+                <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © GHOSTS 2020</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="js/lang.js"></script>
-    </body>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container">Copyright © GHOSTS 2020</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="js/lang.js"></script>
+</body>
+
 </html>

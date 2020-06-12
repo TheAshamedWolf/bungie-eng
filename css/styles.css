@@ -10140,24 +10140,30 @@ body {
   #mainNav .nav-link:active {
     color: #fff;
   }
-  #mainNav.navbar-shrink {
+  #mainNav.navbar-top {
     background-color: #fff;
+
   }
-  #mainNav.navbar-shrink .navbar-brand {
+  #mainNav img {
+    opacity: 0.6;
+    max-height: 80px !important; 
+    max-width: 90px !important;
+  }
+  #mainNav.navbar-top .navbar-brand {
     color: #000000;
   }
-  #mainNav.navbar-shrink .nav-link {
+  #mainNav.navbar-top .nav-link {
     color: #000000;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
-  #mainNav.navbar-shrink .nav-link:hover {
+  #mainNav.navbar-top .nav-link:hover {
     color: #64a19d;
   }
-  #mainNav.navbar-shrink .nav-link:active {
+  #mainNav.navbar-top .nav-link:active {
     color: #467370;
   }
-  #mainNav.navbar-shrink .nav-link.active {
+  #mainNav.navbar-top .nav-link.active {
     color: #64a19d;
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
