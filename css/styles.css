@@ -10332,3 +10332,10 @@ body {
   display: block;
   font-size: 4.5rem;
 }
+
+.team-image { 
+  max-height: 320px !important;
+  min-width: 100% !important;
+  min-height: 260px !important;
+  overflow: hidden;
+}
