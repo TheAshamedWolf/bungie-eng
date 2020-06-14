@@ -1,7 +1,7 @@
 {
     "ResearchPhase": "Onderzoeksfase",
     "SE": "HBO-ICT SE",
-    "SEwk1": "De start aan een nieuw project voor ICT! Dit project is het eerste project waar interdisciplinair wordt samengewerkt, dus het is erg belangrijk dat we als team goede afspraken maken over de planning van het project. Het maken van een goede planning, het opzetten van een scrum omgeving en het klaarzetten van een ontwikkelomgeving staat deze week centraal. Ook zullen de ICT studenten deze week zich gaan oriënteren in WeBots en de bijbehorende tutorials gaan volgen, zodat we de volgende sprint weten wat de structuur van de software is.",
+    "SEwk1": "De start aan een nieuw project voor ICT! Dit project is het eerste project waar interdisciplinair wordt samengewerkt, dus het is erg belangrijk dat we als team goede afspraken maken over de planning van het project. Het maken van een goede planning, het opzetten van een scrum omgeving en het klaarzetten van een ontwikkelomgeving staat deze week centraal. Ook zullen de ICT studenten zich week gaan oriënteren in WeBots en de bijbehorende tutorials gaan volgen, zodat we de volgende sprint weten wat de structuur van de software is.",
     "ME": "Werktuigbouwkunde",
     "MEwk1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?",
     "EE": "Elektrotechniek",
@@ -33,6 +33,7 @@
     "MEwk7": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?",
     "EEwk7": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum voluptatum officiis tenetur ducimus est, asperiores quisquam, cumque dolorem commodi harum velit nobis tempore exercitationem nemo sed delectus doloribus ut dicta, eos deleniti! Qui in atque aut reiciendis quos quae cumque doloremque hic iusto cum porro animi quas eaque temporibus natus odio quidem sunt neque, optio, impedit fuga dicta ullam?",
     "PFwk7": "Groeidocument 5",
+    "PFOnlyDutch": " (Alleen in het Nederlands beschikbaar)",
     "SEwk8": "Na het zeer succesvolle assessment van ICT (iedereen had een 9) zijn we met veel motivatie begonnen aan de laatste loodjes voor de kwalificatiedag. Al het werk van de verschillende teamleden van ICT zal deze week samengevoegd worden tot één centraal project. Waar zo nodig zullen mensen bijspringen om andere teamleden te helpen en zullen zoveel mogelijk functionaliteit van de robot aftesten. Per onderdeel voor de kwalificatie zullen we ook filmpjes maken die we zullen inleveren als bewijsstuk.",
     "MEwk8": "",
     "EEwk8": "",
@@ -43,5 +44,5 @@
     "seconds": "seconden",
     "link": "Tot nu...",
     "Countdown": "Aftellen tot de lancering:",
-    "frontText": "2 Augustus 1955 diende als het startschot voor de grootste wetenschappelijke wedstrijd in de geschiedenis van de mensheid. </br> The Space Race.</br> </br> In de 14 jaar die volgde kwamen honderdduizenden mensen bij elkaar, spendeerde ze een gigantisch geldbedrag, maakte gebruik van een kolossale hoeveelheid hersenkracht. En behaalde ze iets wat in elke verwachting of voorspelling als onmogelijk werd beschouwd.</br> </br> Op 20 Juli 1969 landde de eerste mensen op de maan, dit leidde tot het einde van de race. En al zijn er tot 1972 een aantal mensen op de maan geweest. Voor de bijna 50 jaar die volgde is er nooit meer iets of iemand op de maan geweest."
+    "frontText": "2 Augustus 1955 diende als het startschot voor de grootste wetenschappelijke wedstrijd in de geschiedenis van de mensheid. </br> The Space Race.</br> </br> In de 14 jaar die volgde kwamen honderdduizenden mensen bij elkaar, spendeerde ze een gigantisch geldbedrag, maakte gebruik van een kolossale hoeveelheid hersenkracht. Ze behaalde iets wat in elke verwachting of voorspelling als onmogelijk werd beschouwd.</br> </br> Op 20 Juli 1969 landde de eerste mensen op de maan, dit leidde tot het einde van de race. En al zijn er tot 1972 een aantal mensen op de maan geweest. Voor de bijna 50 jaar die volgde is er nooit meer iets of iemand op de maan geweest."
   }

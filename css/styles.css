@@ -10148,6 +10148,7 @@ body {
     opacity: 0.6;
     max-height: 80px !important; 
     max-width: 90px !important;
+    padding: 15px !important;
   }
   #mainNav.navbar-top .navbar-brand {
     color: #000000;
