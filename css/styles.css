@@ -101,6 +101,13 @@ abbr[data-original-title] {
           text-decoration-skip-ink: none;
 }
 
+@media (min-width: 320px) and (max-width:1024px) {
+#langImg {
+  max-width: 60px !important;
+  }
+}
+
+
 address {
   margin-bottom: 1rem;
   font-style: normal;
@@ -4043,6 +4050,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  overflow: auto;
   padding: 0.5rem 1rem;
 }
 .navbar .container,
@@ -4128,6 +4136,7 @@ input[type=button].btn-block {
 .navbar-expand-sm > .container-xl {
     padding-right: 0;
     padding-left: 0;
+
   }
 }
 @media (min-width: 576px) {
