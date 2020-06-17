@@ -104,6 +104,7 @@ abbr[data-original-title] {
 @media (min-width: 320px) and (max-width:1024px) {
 #langImg {
   max-width: 60px !important;
+  opacity: 0.6;
   }
 }
 
